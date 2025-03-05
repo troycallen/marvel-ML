@@ -1,0 +1,60 @@
+.team-builder {
+  padding: 2rem;
+}
+
+.teams-container {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.team {
+  flex: 1;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.team-heroes {
+  display: flex;
+  gap: 1rem;
+  min-height: 100px;
+}
+
+.heroes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 1rem;
+}
+
+.hero-option {
+  padding: 1rem;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.selected-hero {
+  padding: 1rem;
+  background-color: #c0c0c0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.predict-button {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.prediction-result {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+} 
